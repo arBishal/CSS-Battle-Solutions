@@ -1,0 +1,41 @@
+<tile></tile>
+<top-side></top-side>
+<bottom-side></bottom-side>
+<bar></bar>
+<style>
+  * {
+    background: #333;
+    position: fixed;
+    margin: auto;
+  }
+  tile, top-side, bottom-side, bar {
+    width: 64;
+    height: 99;
+    background: #EEE;
+    top: 0; left: 157;
+    -webkit-box-reflect: below 108px;
+  }
+  top-side, bottom-side {
+    height: 128;
+    top: 35; left: 43;
+    border-radius: 0 0 0 64px;
+    -webkit-box-reflect: right 164px;
+  }
+  bottom-side {
+    top: 143;
+    border-radius: 64px 0 0 0;
+  }
+  bar {
+    width: 164;
+    height: 20px;
+    top: 143; left: 107;
+    -webkit-box-reflect: below -20px;
+  }
+</style>
+
+<!-- minified version
+
+<v><t><b><h>
+<style>*{background:#333;position:fixed;margin:auto;}v,t,b,h{width:64;height:99;background:#EEE;top:0;left:157;-webkit-box-reflect:below 108px;}t,b{height:128;top:35;left:43;border-radius:0 0 0 64px;-webkit-box-reflect:right 164px;}b{top:143;border-radius:64px 0 0 0;}h{width:164;height:20px;top:143;left:107;-webkit-box-reflect:below -20px;
+ 
+-->
